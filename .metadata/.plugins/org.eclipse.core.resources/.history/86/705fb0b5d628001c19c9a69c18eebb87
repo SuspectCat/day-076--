@@ -1,0 +1,7 @@
+package com.jdbc.dao;
+
+public class UserDao {
+	public static boolean find() {
+		
+	}
+}

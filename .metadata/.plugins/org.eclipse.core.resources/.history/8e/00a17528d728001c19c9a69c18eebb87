@@ -1,0 +1,9 @@
+package com.jdbc.dao;
+
+public class UserDao {
+	public static boolean find(String name, String passworld) {
+		boolean isFind = false;
+		
+		return isFind;
+	}
+}

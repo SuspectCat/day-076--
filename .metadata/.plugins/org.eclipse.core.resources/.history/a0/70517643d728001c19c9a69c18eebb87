@@ -1,0 +1,14 @@
+package com.jdbc.dao;
+
+import java.sql.Connection;
+import java.sql.Statement;
+
+public class UserDao {
+	public static boolean find(String name, String passworld) {
+		boolean isFind = false;
+		Connection connection = null;
+		Statement statement = null;
+		
+		return isFind;
+	}
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.genuitec.server.core.launchConfigurationType">
+    <stringAttribute key="IGenuitecServerLaunchConfigProvider.ATTR_DEFAULT_PROG_ARGS" value="start"/>
+    <stringAttribute key="IGenuitecServerLaunchConfigProvider.ATTR_DEFAULT_VM_ARGS" value="-Dcatalina.base=&quot;E:\code\JSP第二阶段\day-076-周六测试\.metadata\.me_tcat9046&quot; -Dcatalina.home=&quot;D:\code_tools\MyEclipse\plugins\com.genuitec.eclipse.server.embedded.tomcat.v90.core_13.0.0.me202105191459\tomcat9046&quot; -Dwtp.deploy=&quot;E:\code\JSP第二阶段\day-076-周六测试\.metadata\.me_tcat9046\webapps&quot; -Djava.library.path=&quot;D:\code_tools\MyEclipse\binary\com.sun.java.jdk14.win32.x86_64_1.14.0\bin;D:\code_tools\MyEclipse\plugins\com.genuitec.eclipse.server.embedded.tomcat.v90.core_13.0.0.me202105191459\tomcat9046\bin&quot;"/>
+    <booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="com.genuitec.server.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Java JDK VM 1.14.0_ Windows"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="start"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.base=&quot;E:\code\JSP第二阶段\day-076-周六测试\.metadata\.me_tcat9046&quot; -Dcatalina.home=&quot;D:\code_tools\MyEclipse\plugins\com.genuitec.eclipse.server.embedded.tomcat.v90.core_13.0.0.me202105191459\tomcat9046&quot; -Dwtp.deploy=&quot;E:\code\JSP第二阶段\day-076-周六测试\.metadata\.me_tcat9046\webapps&quot; -Djava.library.path=&quot;D:\code_tools\MyEclipse\binary\com.sun.java.jdk14.win32.x86_64_1.14.0\bin;D:\code_tools\MyEclipse\plugins\com.genuitec.eclipse.server.embedded.tomcat.v90.core_13.0.0.me202105191459\tomcat9046\bin&quot;"/>
+    <stringAttribute key="process_factory_id" value="com.genuitec.eclipse.core.ui.console.CustomConsoleProcessFactory"/>
+    <stringAttribute key="server-id" value="com.genuitec.embedded.tomcat.server.v90"/>
+</launchConfiguration>

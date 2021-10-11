@@ -1,0 +1,40 @@
+package com.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class GetMessage extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+//		super.doPost(req, resp);
+	}
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+//		super.doGet(req, resp);
+		doPost(req, resp);
+		
+		// 获取请求信息
+		req.setCharacterEncoding("UTF-8");
+		System.out.println(req.getParameter("username"));
+		System.out.println(req.getParameter("userpwd"));
+		
+		// 获取Get请求的请求参数字符串
+		System.out.println(req.getQueryString());
+		System.out.println(req.getRequestURI());
+		System.out.println(req.getRequestURL().toString());
+	}
+
+}
